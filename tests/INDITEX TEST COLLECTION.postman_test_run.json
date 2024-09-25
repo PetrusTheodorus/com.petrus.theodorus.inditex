@@ -1,0 +1,239 @@
+{
+	"id": "02abf3a6-bd2c-44e8-8429-4d9ea0cb39c3",
+	"name": "INDITEX TEST COLLECTION",
+	"timestamp": "2024-09-25T20:03:54.721Z",
+	"collection_id": "16040126-babdbc17-a92b-4448-8295-0d8f62d0b4c6",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-25T20:03:54.308Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "17445f10-65c7-4a31-8fc1-fbd6617a9b91",
+			"name": "NOT FOUND",
+			"url": "http://localhost:8080/api/prices/brand/product/price?brandId=2&productId=35455&date=2020-06-14-10.00.00",
+			"time": 6,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Prueba validada": true
+			},
+			"testPassFailCounts": {
+				"Prueba validada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Prueba validada": true
+				}
+			]
+		},
+		{
+			"id": "72c5656d-074a-47e8-903c-e2a6b5f09742",
+			"name": "BAD REQUEST",
+			"url": "http://localhost:8080/api/prices/brand/product/price?brandId=1&productId=35455&date=2020-06-146.00.00",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Prueba validada": true
+			},
+			"testPassFailCounts": {
+				"Prueba validada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Prueba validada": true
+				}
+			]
+		},
+		{
+			"id": "177ed245-545f-4024-8d72-44385a8ec39d",
+			"name": "TEST1",
+			"url": "http://localhost:8080/api/prices/brand/product/price?brandId=1&productId=35455&date=2020-06-14-10.00.00",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Prueba validada": true
+			},
+			"testPassFailCounts": {
+				"Prueba validada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Prueba validada": true
+				}
+			]
+		},
+		{
+			"id": "fe09af45-ccf7-477f-ad57-39d137ff8ce3",
+			"name": "TEST2",
+			"url": "http://localhost:8080/api/prices/brand/product/price?brandId=1&productId=35455&date=2020-06-14-16.00.00",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Prueba validada": true
+			},
+			"testPassFailCounts": {
+				"Prueba validada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Prueba validada": true
+				}
+			]
+		},
+		{
+			"id": "5c5644da-915b-4b6c-a94d-d5611457be31",
+			"name": "TEST3",
+			"url": "http://localhost:8080/api/prices/brand/product/price?brandId=1&productId=35455&date=2020-06-14-21.00.00",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Prueba validada": true
+			},
+			"testPassFailCounts": {
+				"Prueba validada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Prueba validada": true
+				}
+			]
+		},
+		{
+			"id": "42f98e3e-7359-44dd-a374-bccc0bf2b783",
+			"name": "TEST4",
+			"url": "http://localhost:8080/api/prices/brand/product/price?brandId=1&productId=35455&date=2020-06-15-10.00.00",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Prueba validada": true
+			},
+			"testPassFailCounts": {
+				"Prueba validada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Prueba validada": true
+				}
+			]
+		},
+		{
+			"id": "4340b01f-8124-4725-8be8-90c06b3b66a1",
+			"name": "TEST5",
+			"url": "http://localhost:8080/api/prices/brand/product/price?brandId=1&productId=35455&date=2020-06-16-21.00.00",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Prueba validada": true
+			},
+			"testPassFailCounts": {
+				"Prueba validada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Prueba validada": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 43,
+	"collection": {
+		"requests": [
+			{
+				"id": "17445f10-65c7-4a31-8fc1-fbd6617a9b91",
+				"method": "GET"
+			},
+			{
+				"id": "72c5656d-074a-47e8-903c-e2a6b5f09742",
+				"method": "GET"
+			},
+			{
+				"id": "177ed245-545f-4024-8d72-44385a8ec39d",
+				"method": "GET"
+			},
+			{
+				"id": "fe09af45-ccf7-477f-ad57-39d137ff8ce3",
+				"method": "GET"
+			},
+			{
+				"id": "5c5644da-915b-4b6c-a94d-d5611457be31",
+				"method": "GET"
+			},
+			{
+				"id": "42f98e3e-7359-44dd-a374-bccc0bf2b783",
+				"method": "GET"
+			},
+			{
+				"id": "4340b01f-8124-4725-8be8-90c06b3b66a1",
+				"method": "GET"
+			}
+		]
+	}
+}
